@@ -1,0 +1,22 @@
+header{
+    height: 100vh;
+    background-image:url("https://www.pogdesign.co.uk/cat/imgs/midmain/Emily-in-Paris.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header_content
+{
+    margin-left: 5vw;
+    padding-top: 10vw;
+}
+header img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.header_billboard
+{
+ width: 23vw;
+ object-fit: cover;
+}
