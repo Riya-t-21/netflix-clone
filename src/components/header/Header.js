@@ -1,22 +1,26 @@
 import './Header.css';
 function Header()
 {
-    return (<header>
+    return (
+    <header>
+       
+       <div className='header_inner_shadow'></div>
+       
+
          <div className="header_content">
 
           <div className="header_billboard">
-            <img   src='https://upload.wikimedia.org/wikipedia/commons/1/1c/EIPLogo.png'     
-            alt="bilboard"/>         
+            <img   src='https://images.moviesanywhere.com/929eb763ffea62aff97b3f48b74853f7/13e506be-c360-4363-aca8-d095e8f16582.png?r=2x1&w=300' 
+            alt='bilboard'/>         
           </div>
-        <h4>
-           "Emily in Paris follows Emily Cooper, a college graduate American with a Master's
-            degree in marketing in her late twenties from Chicago, who moves to Paris for an 
-            unexpected job opportunity.Cultures clash as she adjusts to the challenges of 
-            life in Paris while juggling her career, new friendships, and active love life." 
+        <h4 className='header_des'>
+           "Two teenage cancer patients begin a life-affirming journey to visit a reclusive author in Amsterdam.
+            Hazel and Augustus are two teenagers who share an acerbic wit, a disdain for the conventional, 
+            and a love that sweeps them on a journey." 
         </h4>
 
         <div className="header_buttons">
-            <button className="header_play">
+            <button className="header_button play_button">
             <svg 
             width="24" 
             height="24" 
@@ -28,7 +32,7 @@ function Header()
                 </svg>
                 Play
                 </button>
-            <button className="header_moreInfo">
+            <button className="header_button moreinfo">
             <svg 
             width="24" 
             height="24" 

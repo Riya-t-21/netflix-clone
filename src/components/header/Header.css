@@ -1,14 +1,14 @@
 header{
     height: 100vh;
-    background-image:url("https://www.pogdesign.co.uk/cat/imgs/midmain/Emily-in-Paris.jpg") ;
+    background-image: url("https://imgix.bustle.com/rehost/2016/9/13/0d6b00df-2ce6-475f-92c6-5fa6db22361e.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 .header_content
 {
     margin-left: 5vw;
-    padding-top: 10vw;
+    padding-top: 15vw;
 }
 header img{
     height: 100%;
@@ -17,6 +17,80 @@ header img{
 }
 .header_billboard
 {
- width: 23vw;
+ width: 24vw;
  object-fit: cover;
+ z-index: 1;
+ position: relative;
+}
+.header_des
+{
+    width: 50%;
+    color: white;
+    font-size: 1.1vw;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 0.1vw;
+}
+
+.header_buttons
+{
+    display: flex;
+    align-items:center ;
+    margin-top: 1.5vw;
+
+}
+
+.header_button
+{
+    border-radius: 4px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    padding: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    cursor: pointer;
+
+}
+.header_button svg{
+     margin-right: 0.4rem;
+
+}
+.play_button
+{
+    background-color: #fff;
+    margin-right: 1rem;
+
+}
+.play_button:hover
+{
+  background-color: #e6e6e6 ;
+}
+
+.moreinfo
+{
+    background-color: rgba(30,30,30,0.947);
+    color: #fff;
+}
+
+.moreinfo:hover
+{
+    background-color: rgba(30,30,30,0.8);
+}
+
+
+.header_inner_shadow
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgb(20,20,20,1) 0% ,rgb(20,20,20,0)100%) ;
 }
