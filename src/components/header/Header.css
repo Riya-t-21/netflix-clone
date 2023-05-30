@@ -30,6 +30,8 @@ header img{
     font-weight: 500;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     margin-bottom: 0.1vw;
+    z-index: 2;
+    position: relative;
 }
 
 .header_buttons
@@ -37,6 +39,8 @@ header img{
     display: flex;
     align-items:center ;
     margin-top: 1.5vw;
+    z-index: 2;
+    position: relative;
 
 }
 
@@ -87,10 +91,12 @@ header img{
 
 .header_inner_shadow
 {
+    z-index: 0;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(0deg, rgb(20,20,20,1) 0% ,rgb(20,20,20,0)100%) ;
+    background: linear-gradient(0deg, rgb(20,20,20,1) 0% ,rgb(20, 20, 20, 0)100%) ,
+    linear-gradient(180deg , rgb(20, 20, 20, 0.7) 0%, rgb(20, 20, 20, 0) 100% )
 }
